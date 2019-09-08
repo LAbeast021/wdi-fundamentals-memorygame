@@ -6,7 +6,7 @@ body {
 a{
     margin: 0 20px;
     text-decoration: none;
-    color: #F15B31;
+    color: white;
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 18px;
@@ -68,3 +68,21 @@ footer{
         color: #F15B31;
         font-weight: 700;
     }
+    .back{
+        height: 200px;
+        width: 300px;
+        border-radius: 100px;
+        border-bottom: 50px solid transparent red ;
+        margin: auto;
+        padding: auto;
+        color: black;
+        background: rgb(233, 105, 105);
+        backface-visibility: visible;
+
+        
+
+    };
+    .scoreBoard{
+        background-color: red;
+    }
+    
